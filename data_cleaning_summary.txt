@@ -1,0 +1,22 @@
+
+Data Cleaning Summary:
+1. Loaded the dataset and examined its structure.
+2. Handled missing values by filling with median or removing rows with excessive missing data.
+3. Removed duplicate rows to ensure each record is unique.
+4. Corrected invalid email formats and filtered for professional emails only.
+5. Cleaned name fields by removing noise and ensuring consistent formatting.
+6. Standardized date formats in the 'Join Date' column.
+7. Corrected typos and standardized department names.
+8. Handled salary noise by filtering salaries within a reasonable range.
+
+Assumptions:
+
+- Professional emails are those belonging to predefined domains.
+- Median salary is a suitable replacement for missing salary values.
+- Reasonable salary range defined as 30,000 to 200,000.
+
+Methodologies:
+- Used pandas for data manipulation and cleaning.
+- Employed regular expressions for email validation.
+- Applied string methods for name and department corrections.
+- Utilized datetime functions for date standardization.
